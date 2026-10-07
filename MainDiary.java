@@ -14,7 +14,7 @@ public class MainDiary {
         BukuHarian diarySaya = new BukuHarian("Nirina");
 
         diarySaya.tulisCatatan("15-04-2026", "Hari ini ada praktikum PBO, mantapp cuy");
-        diarySaya.tulisCatatan("16-00-2026", "Berhasil membuat file catatan harian!");
+        diarySaya.tulisCatatan("16-04-2026", "Berhasil membuat file catatan harian!");
 
         diarySaya.bacaCatatan();
     }
