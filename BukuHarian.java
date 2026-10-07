@@ -22,7 +22,6 @@ public class BukuHarian {
     private String namaPemilik;
     private String namaFile;
 
-    // Constructor
     public BukuHarian(String namaPemilik) {
         this.namaPemilik = namaPemilik;
         this.namaFile = "diary_" + namaPemilik.toLowerCase().replaceAll("\\s+", "_") + ".txt";
